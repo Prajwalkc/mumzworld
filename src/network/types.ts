@@ -1,0 +1,19 @@
+// HTTP Status Codes
+
+export const SUCCESS_STATUS_CODES = {
+  OK: 200,
+};
+
+export const ERROR_STATUS_CODES = {
+  // 4xx Client Error
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDN: 403,
+
+  // 5xx Server Error
+  INTERNAL_SERVER_ERROR: 500,
+  NOT_IMPLEMENTED: 501,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+  GATEWAY_TIMEOUT: 504,
+};
